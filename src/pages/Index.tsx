@@ -11,16 +11,6 @@ const Index = () => {
   return (
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <main className="max-w-7xl mx-auto">
-        {/* Header Section */}
-        <header className="text-center mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold gradient-text mb-4">
-            Professional DevOps Portfolio
-          </h1>
-          <p className="text-xl text-muted-foreground font-medium">
-            Infrastructure Automation & Cloud Migration Expertise
-          </p>
-        </header>
-
         {/* Sequential Dialog Display */}
         <section className="space-y-8">
           {dialogs.map((dialog, index) => (
